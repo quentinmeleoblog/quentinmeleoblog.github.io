@@ -25,6 +25,45 @@
             <p>Téléphone : 06 59 97 52 85</p>
             <p>Email : <a href="mailto:qmeleo@gmail.com" target="_blank">qmeleo@gmail.com</a></p>
             <p>LinkedIn : <a href="https://www.linkedin.com/in/quentin-meleo" target="_blank">Quentin MELEO </a></p>
+            <form name="blogForm" action="https://formspree.io/f/xzzpgzzv" onsubmit="return validateForm()" method="post">
+                <table class="form-style">
+                    <tr>
+                        <td>
+                            <label for="name">Votre nom <span class="required">*</span></label>
+                        </td>
+                        <td>
+                            <input type="text" name="name" class="long" id="name"/>
+                            <span class="error" id="errorname"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Votre adresse e-mail <span class="required">*</span></label>
+                        </td>
+                        <td>
+                            <input type="email" name="email" class="long" id="email"/>
+                            <span class="error" id="erroremail"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="message">Message <span class="required">*</span></label>
+                        </td>
+                        <td>
+                            <textarea name="message" class="long field-textarea" id="message"></textarea>
+                            <span class="error" id="errormsg"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type="submit" value="Envoyer">      
+                            <input type="reset" value="Réinitialiser"> 
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <script src="script.js"></script>
         </section>
     </main>
     <footer>
