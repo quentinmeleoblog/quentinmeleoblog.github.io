@@ -56,21 +56,25 @@ article {
   padding: 20px 12px 10px 20px;
   font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
+
 .form-style td {
   padding: 0;
   display: block;
   list-style: none;
   margin: 10px 0 0 0;
 }
+
 .form-style label {
   margin: 0 0 3px 0;
   padding: 0px;
   display: block;
   font-weight: bold;
 }
+
 .form-style .required {
   color: red;
 }
+
 .form-style input[type="submit"],
 .form-style input[type="reset"] {
   background: #4eb5f1;
@@ -78,6 +82,7 @@ article {
   border: none;
   color: #fff;
 }
+
 .form-style input[type="submit"]:hover,
 .form-style input[type="reset"]:hover {
   background: #4eb5f1;
@@ -85,9 +90,11 @@ article {
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
 }
+
 .form-style .field-textarea {
   height: 100px;
 }
+
 .form-style input[type="text"],
 .form-style input[type="email"],
 textarea {
@@ -104,9 +111,11 @@ textarea {
   -o-transition: all 0.3s ease-in-out;
   outline: none;
 }
+
 .form-style .long {
   width: 100%;
 }
+
 .form-style input[type="text"]:focus,
 .form-style input[type="email"]:focus,
 .form-style textarea:focus {
@@ -115,6 +124,17 @@ textarea {
   box-shadow: 0 0 8px #88d5e9;
   border: 1px solid #88d5e9;
 }
+
+.article-img-square {
+  width: 40vw;
+  height: 50vh
+} 
+
+.article-img-rectangle {
+  width: 60vw;
+  height: 35vh
+} 
+
 .error {
   color: #d8000c;
   background-color: #ffbaba;
