@@ -10,18 +10,20 @@
     <header>
         <nav>
             <ul>
-                <li><a href="/">Accueil</a></li>
+                <li><a href="/" style="font-weight: bold;">Accueil</a></li>
                 <li><a href="/entreprise.html">Entreprise</a></li>
                 <li><a href="/articles.html">Articles</a></li>
                 <li><a href="/contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <div class="contain-banner">
+        <img src="/assets/stage.jpg" alt="Bannière du blog">
+    </div>
+    <main>       
         <h1>À propos</h1>
         <section>
             <h2>Qui suis-je ?</h2>
-            <p>Bonjour et bienvenue sur mon blog !</p> 
             <p>Je m'appelle Quentin Méléo et je suis actuellement étudiant en troisième année Bachelor en Informatique à Lyon Ynov Campus.</p>
             <p>Passionné par les nouvelles technologies et le développement, j'aspire à devenir un professionnel compétent et innovant dans le domaine de l'informatique.</p>
         </section>
@@ -33,12 +35,87 @@
         <section>
             <h2>Mes Compétences</h2>
             <ul>
-                <li>Langages de programmation : JavaScript, PHP, Python, Java, C#, Golang</li>
-                <li>Frameworks et technologies : .NET, ASP.NET, Docker, Angular, Symfony</li>
-                <li>Développement web : HTML, CSS, Wordpress</li>
-                <li>Base de données : MySQL</li>
-                <li>Outils de versioning : Git, GitHub</li>
-                <li>Gestion de projet : Méthodes Agile, Scrum</li>
+                <div class="skills-container">
+                    <div>
+                        <p>Langages de programmation :</p>
+                        <div class="icon-container">
+                            <img src="assets/icon/js.png" class="icon">
+                            <span class="icon-name">JavaScript</span> 
+                        </div>
+                        <div class="icon-container">
+                            <img src="assets/icon/php.png" class="icon">
+                            <span class="icon-name">PHP</span>
+                        </div>
+                        <div class="icon-container">
+                            <img src="assets/icon/python.png" class="icon">
+                            <span class="icon-name">Python</span>
+                        </div>
+                        <div class="icon-container">
+                            <img src="assets/icon/java.png" class="icon">
+                            <span class="icon-name">Java</span>
+                        </div>
+                        <div class="icon-container">
+                            <img src="assets/icon/csharp.png" class="icon">
+                            <span class="icon-name">C#</span>
+                        </div> 
+                        <div class="icon-container">
+                            <img src="assets/icon/golang.png" class="icon">
+                            <span class="icon-name">Golang</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Frameworks et technologies : </p>
+                        <div class="icon-container">
+                            <img src="assets/icon/DotNET.svg" class="icon">
+                            <span class="icon-name">.NET</span>
+                        </div>
+                        <div class="icon-container">
+                            <img src="assets/icon/docker.png" class="icon">
+                            <span class="icon-name">Docker</span>
+                        </div>
+                        <div class="icon-container">
+                            <img src="assets/icon/Angular.png" class="icon">
+                            <span class="icon-name">Angular</span>
+                        </div>
+                        <div class="icon-container">
+                            <img src="assets/icon/symfony.png" class="icon">
+                            <span class="icon-name">Symfony</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Développement web : </p>
+                        <div class="icon-container">
+                            <img src="assets/icon/codage.png" class="icon">
+                            <span class="icon-name">HTML/CSS</span>
+                        </div>
+                        <div class="icon-container">
+                            <img src="assets/icon/wordpress.png" class="icon">
+                            <span class="icon-name">Wordpress</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Base de données : </p>
+                        <div class="icon-container">
+                            <img src="assets/icon/serveur-sql.png" class="icon">
+                            <span class="icon-name">SQL</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Outils de versioning : </p>
+                        <div class="icon-container">
+                            <img src="assets/icon/gite.png" class="icon">
+                            <span class="icon-name">Git</span>
+                        </div>
+                        <div class="icon-container">
+                            <img src="assets/icon/github.png" class="icon">
+                            <span class="icon-name">GitHub</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p>Gestion de projet : </p>
+                        <p>Méthodes Agile, Scrum</p>
+                    </div>
+                </div>
             </ul>
         </section>
         <section>
