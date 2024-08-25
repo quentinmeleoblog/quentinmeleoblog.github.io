@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    main {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    ul {
+        padding: 0;
+    }
+
+    .company-container {
+        grid-template-columns: 1fr;
+    }
+
+    .company-container img {
+        width: 50vw;
+    }
+
+    .article-img-square {
+        width: 90vw;
+    }
+
+    .article-img-rectangle {
+        width: 90vw;
+    }
+
+    .form-style {
+        padding: 0 15px 0 0;
+    }
+}
